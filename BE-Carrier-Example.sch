@@ -267,6 +267,8 @@
 <wire x1="-16.51" y1="21.5" x2="16.51" y2="21.5" width="0.127" layer="21"/>
 <wire x1="-16.51" y1="-21.5" x2="16.51" y2="-21.5" width="0.127" layer="21"/>
 <dimension x1="16.51" y1="-21.5" x2="16.51" y2="21.5" x3="17.78" y3="0" textsize="1.27" layer="21"/>
+<text x="-2.54" y="17.78" size="1.27" layer="21">Digital</text>
+<text x="-2.54" y="-19.05" size="1.27" layer="21">Mixed</text>
 </package>
 <package name="BE-CARRIER-SMD">
 <wire x1="22.5" y1="-25" x2="-22.5" y2="-25" width="0.127" layer="21" style="shortdash"/>
@@ -389,6 +391,8 @@
 <smd name="P$98" x="12.7" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
 <smd name="P$99" x="13.97" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
 <smd name="P$100" x="15.24" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<text x="-2.54" y="16.51" size="1.27" layer="21">Digital</text>
+<text x="-2.54" y="-17.78" size="1.27" layer="21">Mixed</text>
 </package>
 </packages>
 <symbols>
@@ -505,6 +509,8 @@
 <pin name="H2" x="-12.7" y="-45.72" length="middle"/>
 <pin name="H1" x="10.16" y="-40.64" length="middle" rot="R180"/>
 <pin name="H3" x="10.16" y="-45.72" length="middle" rot="R180"/>
+<text x="-33.02" y="0" size="1.27" layer="94">Digital</text>
+<text x="27.94" y="0" size="1.27" layer="94">Mixed</text>
 </symbol>
 </symbols>
 <devicesets>

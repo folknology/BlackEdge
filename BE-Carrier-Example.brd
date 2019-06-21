@@ -275,6 +275,8 @@
 <wire x1="-16.51" y1="21.5" x2="16.51" y2="21.5" width="0.127" layer="21"/>
 <wire x1="-16.51" y1="-21.5" x2="16.51" y2="-21.5" width="0.127" layer="21"/>
 <dimension x1="16.51" y1="-21.5" x2="16.51" y2="21.5" x3="17.78" y3="0" textsize="1.27" layer="21"/>
+<text x="-2.54" y="17.78" size="1.27" layer="21">Digital</text>
+<text x="-2.54" y="-19.05" size="1.27" layer="21">Mixed</text>
 </package>
 </packages>
 </library>
