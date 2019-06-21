@@ -6,3 +6,4 @@ Connectors are 2 rows of 25 pins each with a 1.27mm pitch, Carrier is male, Core
 ![Carrier Drwawing](https://github.com/folknology/BlackEdge/blob/master/BE-Carrier-Drawing.png)
 ## BlackEdge Carrier Pinouts
 ![Carrier Pinouut](https://github.com/folknology/BlackEdge/blob/master/BE-Carrier-Schematic.png)
+
