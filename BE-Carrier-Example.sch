@@ -472,7 +472,7 @@
 <pin name="AN21" x="15.24" y="-25.4" length="middle"/>
 <pin name="AN22" x="15.24" y="-27.94" length="middle"/>
 <pin name="AN23" x="15.24" y="-30.48" length="middle"/>
-<pin name="GND@S" x="45.72" y="30.48" visible="pin" length="middle" direction="sup" rot="R180"/>
+<pin name="GND@S" x="45.72" y="30.48" length="middle" direction="sup" rot="R180"/>
 <pin name="ES" x="45.72" y="27.94" length="middle" rot="R180"/>
 <pin name="TX" x="45.72" y="25.4" length="middle" rot="R180"/>
 <pin name="RX" x="45.72" y="22.86" length="middle" rot="R180"/>
