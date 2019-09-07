@@ -7,10 +7,10 @@ Connectors are 2 rows of 25 pins each with a 1.27mm pitch, Carrier is male, Core
 ## BlackEdge Carrier Pinouts
 ![Carrier Pinouut](https://github.com/folknology/BlackEdge/blob/master/BE-Carrier-Schematic.png)
 
-## BlackEdge Examples
+# BlackEdge Examples
 Carrier example - [BlackIce Mx](https://github.com/folknology/BlackIceMx)
 
-# BlackIceMx
+## BlackIceMx
 BlackIceMx - Core Module carrier with MixMods/Pmod interfaces
 ![BlackIce Mx](https://github.com/folknology/BlackIceMx/blob/master/BlackIceMx.jpg)
 ![BlackIce Mx](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIceMx.png)
@@ -34,7 +34,7 @@ Supports the [BlackEdge connectivity](https://github.com/folknology/BlackEdge) c
 More [BlackIce Mx background](https://forum.mystorm.uk/t/new-product-blackice-mx/551/10) on the [forum](https://forum.mystorm.uk/)
 
 Core module example - [IceCore](https://github.com/folknology/IceCore)
-# IceCore
+## IceCore
 IceCore Ice40 HX based modular developement core 
 
 **Top View**
@@ -60,7 +60,7 @@ IceCore Ice40 HX based modular developement core
 
 [Get it from Tindie as part of BlackIce Mx](https://www.tindie.com/products/Folknology/blackice-mx/)
 
-# IceCore Module
+## IceCore Module
 
 ![IceCore Module](https://github.com/folknology/IceCore/blob/master/cad/IceCore.png)
 
