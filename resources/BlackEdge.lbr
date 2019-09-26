@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -466,14 +466,14 @@
 <pin name="AN11" x="15.24" y="-5.08" length="middle"/>
 <pin name="AN13" x="15.24" y="-7.62" length="middle"/>
 <pin name="AN15" x="15.24" y="-10.16" length="middle"/>
-<pin name="AN16" x="15.24" y="-12.7" length="middle"/>
-<pin name="AN17" x="15.24" y="-15.24" length="middle"/>
-<pin name="AN18" x="15.24" y="-17.78" length="middle"/>
-<pin name="AN19" x="15.24" y="-20.32" length="middle"/>
-<pin name="AN20" x="15.24" y="-22.86" length="middle"/>
-<pin name="AN21" x="15.24" y="-25.4" length="middle"/>
-<pin name="AN22" x="15.24" y="-27.94" length="middle"/>
-<pin name="AN23" x="15.24" y="-30.48" length="middle"/>
+<pin name="RSV0" x="15.24" y="-12.7" length="middle"/>
+<pin name="RSV1" x="15.24" y="-15.24" length="middle"/>
+<pin name="RSV2" x="15.24" y="-17.78" length="middle"/>
+<pin name="RSV3" x="15.24" y="-20.32" length="middle"/>
+<pin name="RSV4" x="15.24" y="-22.86" length="middle"/>
+<pin name="RSV5" x="15.24" y="-25.4" length="middle"/>
+<pin name="RSV6" x="15.24" y="-27.94" length="middle"/>
+<pin name="RSV7" x="15.24" y="-30.48" length="middle"/>
 <pin name="GND@S" x="45.72" y="30.48" length="middle" direction="sup" rot="R180"/>
 <pin name="ES" x="45.72" y="27.94" length="middle" rot="R180"/>
 <pin name="TX" x="45.72" y="25.4" length="middle" rot="R180"/>
@@ -531,15 +531,7 @@
 <connect gate="G$1" pin="AN13" pad="P$66"/>
 <connect gate="G$1" pin="AN14" pad="P$92"/>
 <connect gate="G$1" pin="AN15" pad="P$67"/>
-<connect gate="G$1" pin="AN16" pad="P$68"/>
-<connect gate="G$1" pin="AN17" pad="P$69"/>
-<connect gate="G$1" pin="AN18" pad="P$70"/>
-<connect gate="G$1" pin="AN19" pad="P$71"/>
 <connect gate="G$1" pin="AN2" pad="P$57"/>
-<connect gate="G$1" pin="AN20" pad="P$72"/>
-<connect gate="G$1" pin="AN21" pad="P$73"/>
-<connect gate="G$1" pin="AN22" pad="P$74"/>
-<connect gate="G$1" pin="AN23" pad="P$75"/>
 <connect gate="G$1" pin="AN3" pad="P$58"/>
 <connect gate="G$1" pin="AN4" pad="P$59"/>
 <connect gate="G$1" pin="AN5" pad="P$60"/>
@@ -616,6 +608,14 @@
 <connect gate="G$1" pin="P7" pad="P$29"/>
 <connect gate="G$1" pin="P8" pad="P$5"/>
 <connect gate="G$1" pin="P9" pad="P$6"/>
+<connect gate="G$1" pin="RSV0" pad="P$68"/>
+<connect gate="G$1" pin="RSV1" pad="P$69"/>
+<connect gate="G$1" pin="RSV2" pad="P$70"/>
+<connect gate="G$1" pin="RSV3" pad="P$71"/>
+<connect gate="G$1" pin="RSV4" pad="P$72"/>
+<connect gate="G$1" pin="RSV5" pad="P$73"/>
+<connect gate="G$1" pin="RSV6" pad="P$74"/>
+<connect gate="G$1" pin="RSV7" pad="P$75"/>
 <connect gate="G$1" pin="RX" pad="P$79"/>
 <connect gate="G$1" pin="SCK" pad="P$80"/>
 <connect gate="G$1" pin="TCK" pad="P$88"/>
@@ -642,15 +642,7 @@
 <connect gate="G$1" pin="AN13" pad="P$66"/>
 <connect gate="G$1" pin="AN14" pad="P$92"/>
 <connect gate="G$1" pin="AN15" pad="P$67"/>
-<connect gate="G$1" pin="AN16" pad="P$68"/>
-<connect gate="G$1" pin="AN17" pad="P$69"/>
-<connect gate="G$1" pin="AN18" pad="P$70"/>
-<connect gate="G$1" pin="AN19" pad="P$71"/>
 <connect gate="G$1" pin="AN2" pad="P$57"/>
-<connect gate="G$1" pin="AN20" pad="P$72"/>
-<connect gate="G$1" pin="AN21" pad="P$73"/>
-<connect gate="G$1" pin="AN22" pad="P$74"/>
-<connect gate="G$1" pin="AN23" pad="P$75"/>
 <connect gate="G$1" pin="AN3" pad="P$58"/>
 <connect gate="G$1" pin="AN4" pad="P$59"/>
 <connect gate="G$1" pin="AN5" pad="P$60"/>
@@ -727,6 +719,14 @@
 <connect gate="G$1" pin="P7" pad="P$29"/>
 <connect gate="G$1" pin="P8" pad="P$5"/>
 <connect gate="G$1" pin="P9" pad="P$6"/>
+<connect gate="G$1" pin="RSV0" pad="P$68"/>
+<connect gate="G$1" pin="RSV1" pad="P$69"/>
+<connect gate="G$1" pin="RSV2" pad="P$70"/>
+<connect gate="G$1" pin="RSV3" pad="P$71"/>
+<connect gate="G$1" pin="RSV4" pad="P$72"/>
+<connect gate="G$1" pin="RSV5" pad="P$73"/>
+<connect gate="G$1" pin="RSV6" pad="P$74"/>
+<connect gate="G$1" pin="RSV7" pad="P$75"/>
 <connect gate="G$1" pin="RX" pad="P$79"/>
 <connect gate="G$1" pin="SCK" pad="P$80"/>
 <connect gate="G$1" pin="TCK" pad="P$88"/>
