@@ -14,3 +14,6 @@ Connectors are 2 rows of 25 pins each with a 1.27mm pitch, System side is male, 
 * FPGA Logic bus example - [IceLogicBus](https://github.com/folknology/IceLogicBus)
 
 
+_Please note that the newer BlackEdge Nxt is not backward compatible with the original BlackEdge Mx_
+
+
